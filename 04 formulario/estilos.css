@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #f2f2f2;
+  font-family: "Roboto", serif;
+  font-size: 18px; }
+
+.contenedor {
+  width: 400px;
+  margin: 40px auto; }
+  
+.contenedor .formulario {
+	border: 2px solid #00000070;
+	border-radius: 6px 6px 6px 6px;	}
+	
+.contenedor .formulario .contenedor-inputs {
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px 6px 0 0; }
+	
+.contenedor .formulario .contenedor-inputs input[type="text"],
+.contenedor .formulario .contenedor-inputs input[type="email"] {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 15px 10px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	font-family: "Roboto", serif;
+font-size: 18px; }
+
+.contenedor .formulario .contenedor-inputs input[type="text"]:focus,
+.contenedor .formulario .contenedor-inputs input[type="email"]:focus {
+	border-bottom: 2px solid #246eb9; }
+	
+.contenedor .formulario .contenedor-inputs input[type="radio"] {
+	display: none; }
+	
+.contenedor .formulario .contenedor-inputs input[type="radio"]:checked + .label-radio {
+	background: #f9a03f; }
+	
+.contenedor .formulario .contenedor-inputs .sexo {
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+margin-bottom: 20px; }
+
+.contenedor .formulario .contenedor-inputs .sexo .hombre {
+	border-radius: 3px 0 0 3px; }
+	
+.contenedor .formulario .contenedor-inputs .sexo .mujer {
+	border-radius: 0 3px 3px 0; }
+	
+.contenedor .formulario .contenedor-inputs .sexo .label-radio {
+	background: rgba(249, 160, 63, 0.6);
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	width: 49.5%; }
+	
+.contenedor .formulario .terminos {
+    text-align: center;
+    color: #424242; }
+	
+.contenedor .formulario .terminos label {
+	margin-left: 10px; }
+	
+.contenedor .formulario .error {
+    display: none;
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #ce1818;
+    color: #fff;
+    padding: 15px 10px;
+    padding-left: 40px; }
+	
+.contenedor .formulario .btn {
+    width: 100%;
+    text-align: center;
+    background: #246eb9;
+    color: #fff;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: "Roboto", serif;
+    font-size: 18px; }
+	
+.contenedor .formulario .btn:hover {
+	background: #4357ad; }

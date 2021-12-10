@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Kit de Sonidos con JS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="cont">
+		<div class="par">
+				<p>Tecleé las teclas indicadas <br>para reproducir un sonido.</p>
+		</div>
+
+		<div class="keys">		
+			<div data-key="65" class="key">
+				<kbd>A</kbd>
+				<span class="sound">Aplauso</span>
+			</div>
+		
+			<div data-key="83" class="key">
+				<kbd>S</kbd>
+				<span class="sound">Charles-C</span>
+			</div>
+		
+			<div data-key="68" class="key">
+				<kbd>D</kbd>
+				<span class="sound">Bombo</span>
+			</div>
+		
+			<div data-key="70" class="key">
+				<kbd>F</kbd>
+				<span class="sound">Charles-A</span>
+			</div>
+		
+			<div data-key="71" class="key">
+				<kbd>G</kbd>
+				<span class="sound">Boom</span>
+			</div>
+		
+			<div data-key="72" class="key">
+				<kbd>H</kbd>
+				<span class="sound">Platillo</span>
+			</div>
+		
+			<div data-key="74" class="key">
+				<kbd>J</kbd>
+				<span class="sound">Caja</span>
+			</div>
+
+			<div data-key="75" class="key">
+				<kbd>K</kbd>
+				<span class="sound">Tom-Tom</span>
+			</div>
+
+			<div data-key="76" class="key">
+				<kbd>L</kbd>
+				<span class="sound">Tink</span>
+			</div>
+		</div>
+	</div>
+	
+	<audio data-key="65" src="sonidos/aplauso.wav"></audio>
+	<audio data-key="83" src="sonidos/charles-c.wav"></audio>
+	<audio data-key="68" src="sonidos/bombo.wav"></audio>
+	<audio data-key="70" src="sonidos/charles-a.wav"></audio>
+	<audio data-key="71" src="sonidos/boom.wav"></audio>
+	<audio data-key="72" src="sonidos/platillo.wav"></audio>
+	<audio data-key="74" src="sonidos/caja.wav"></audio>
+	<audio data-key="75" src="sonidos/tom-tom.wav"></audio>
+	<audio data-key="76" src="sonidos/tink.wav"></audio>
+	
+	<script src="index.js"></script>
+</body>
+</html>
