@@ -1,5 +1,5 @@
 # mis-practicas
-aquí se encuentran algunos proyectos que he hecho para poner en práctica
-mis conocimientos sobre desarrollo web.
-Algunos están basados en proyectos de otros repositorios que decidí intentar
-hacer por mi cuenta y con mi estilo.
+Here I have some proyects I did to put into practice
+my web development knowledge.<br><br>
+Some of them are based in other repositories proyects' that I decided to try<br>
+on my own... and with my Style :wink:
